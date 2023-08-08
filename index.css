@@ -1,0 +1,370 @@
+body {
+    background-color: #e7e2c5d3;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #d6d6d6;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height : 60px;
+}
+
+.navbar-logo {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.navbar-features {
+    margin-right: 10px;
+}
+
+.navbar-features a {
+    margin-right: 40px;
+    font-size: 17px;
+    color: black;
+    font-family:  "Apple Chancery", cursive;
+    text-decoration: none;
+}
+
+.content-container {
+    display: flex;
+    
+}
+
+.text-container {
+    flex: 1;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+h1 {
+    font-size: 55px;
+    font-family: Papyrus, fantasy;
+}
+h2{
+    font-size: 70px;
+    font-family: Papyrus, fantasy;
+    margin-top: 90px;
+    margin-left: 120px;
+}
+p{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+.image-container img {
+    width: 600px; 
+    height: 450px;
+    margin: 40px;
+    border: 3px solid #000000d2;
+    border-radius: 8px;
+}
+
+.social-media-container1 a {
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 20px;
+    opacity: 1;
+}
+.social-media-container1 a:hover {
+    opacity: 0.6;
+}
+.social-media-container1 a:hover::after {
+    content: attr(data-text);
+    position: absolute;
+    top: calc(92%);
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}     
+.skills {
+    display: flex;
+    align-items: center;
+}
+
+.skill-img {
+    padding: 60px;
+}
+  
+.skill-img img {
+    margin-top: -80px;
+    height : 400px;
+    width: 500px; 
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+.skill-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px; 
+    margin-top: -150px;
+}
+  
+.card {
+    border: 2px solid #0e0d0d;
+    background-color:rgb(225, 235, 203);
+    border-radius: 5px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 30px;
+  }
+.qualifications {
+    display: flex;
+    flex-wrap: wrap;
+}
+.qualifications h3{
+    font-size: 35px;
+    text-align: center;
+    font-family: Papyrus, fantasy;
+}
+.qualifications p{
+    font-size: 16px;
+    margin-top: 70px;
+    font-family: "Apple Chancery", cursive;
+}
+.language {
+    margin-bottom: 10px;
+    margin-left: -70px;
+}
+  
+.language-name p{
+    font-weight: bold;
+    
+}
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: lightgray; 
+}
+  
+.progress {
+    height: 100%;
+    background-color: #337ab7; 
+}
+  
+.Project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;    
+}
+  
+.project-1 {
+    flex-basis: 30%;
+    height: 600px;
+    border-radius: 5px;
+    background-color: #dbbbb5; 
+    border: 2px solid #000;
+}
+  
+.project-2 {
+    flex-basis: 30%;
+    height: 600px;
+    border-radius: 5px;
+    background-color: #b5e4f0; 
+    border: 2px solid #000;
+}
+  
+.project-3 {
+    flex-basis: 30%;
+    height: 600px;
+    background-color: #d8e782; 
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+.project-1 img{
+    height: 300px;
+    width: 350px;
+    margin-left: 10px;
+    margin-top: -20px;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+.project-1 p{
+    font-size: 16px;
+    font-family: "Apple Chancery", cursive;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.project-1 h4{
+    font-size: 20px;
+    font-family: Papyrus, fantasy;
+    text-align: center;
+}
+.project-1 .project-link {
+    text-decoration: none;
+    color: #0a0a0a;
+}
+.project-2 img{
+    height: 300px;
+    width: 350px;
+    margin-left: 10px;
+    margin-top: -20px;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+.project-2 p{
+    font-size: 16px;
+    font-family: "Apple Chancery", cursive;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.project-2 h4{
+    font-size: 20px;
+    font-family: Papyrus, fantasy;
+    text-align: center;
+    text-decoration: none;
+}
+.project-2 .project-link {
+    text-decoration: none;
+    color: #0a0a0a;
+}
+.project-3 img{
+    height: 300px;
+    width: 350px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: -20px;
+    border: 2px solid #000;
+}
+.project-3 p{
+    font-size: 16px;
+    font-family: "Apple Chancery", cursive;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.project-3 h4{
+    font-size: 20px;
+    font-family: Papyrus, fantasy;
+    text-align: center;
+    text-decoration: none;
+}
+.project-3 .project-link {
+    text-decoration: none;
+    color: #0a0a0a;
+}
+.achievement {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+.achievement-1 img{
+    margin-top: -30px;
+    height: 450px;
+    border-radius: 5px;
+    width : 450px;
+    border: 2px solid #0e0d0d;
+}
+.achievement-2 img{
+    margin-top: -30px;
+    height: 250px;
+    border-radius: 5px;
+    width : 250px;
+}
+.achievement-3 img{
+    height: 250px;
+    width : 250px;
+    margin-top: 200px;
+}
+.achievement-4 img{
+    margin-top: -30px;
+    height: 250px;
+    width : 250px;
+}  
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #d6d6d6;
+    padding : 1px;
+}
+.contact-details {
+    text-align: left;
+    margin-left: 80px;
+}
+  
+.social-media {
+    text-align: center;
+}
+.social-media-container a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+.coding-platform {
+    text-align: right;
+    margin-right: 100px;
+    font-family: Papyrus, fantasy;
+    font-size: 30px;
+}
+.coding-platform-container a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+.contact-details h3 {
+    font-size: 30px;
+    text-align: lefts;
+    font-family: Papyrus, fantasy;
+}
+  
+.contact-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family:  "Apple Chancery", cursive;
+    text-align: left ;
+}
+
+#copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    margin-top: 20px;
+    margin-left: 600px;
+}
+.social-media{
+    text-align: center;
+    flex-basis: 50%;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-family: Papyrus, fantasy;
+}
+  
+#scrollToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #8f8080;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#scrollToTopButton:hover {
+    background-color: #313030;
+}
+
+#scrollToTopButton.show {
+    opacity: 1;
+    visibility: visible;
+}
