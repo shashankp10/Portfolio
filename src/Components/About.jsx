@@ -6,7 +6,7 @@ export default function About() {
         <>
             <h2 className='p-5 text-4xl font-bold'>About Me</h2>
             <p className='pl-5 pr-4 text-md'>Hi, I'm Shashank, Java Full Stack developer with keen interest in problem solving. Proficient in Java, Spring Boot, React JS, and MySQL, I have hands-on experience in crafting robust solutions. I am eager to connect with tech professionals for collaborative innovation and am actively seeking internships as a Software Developer to further hone my skills and contribute to impactful projects.</p>
-            <h4 className='pl-5  pt-3 text-2xl font-bold'>What I'm Doing</h4>
+            <h4 className='pl-5 pt-10 text-2xl font-bold'>What I'm Doing</h4>
             <div className='flex justify-center xl:flex-row flex-col space-x-0 xl:space-x-10 space-y-5 xl:space-y-0 p-4'>
                 <div className='pr-3 pb-3 w-auto h-auto border flex-wrap border-gray-600 shadow-2xl bg-slate-800 rounded-lg'>
                     <h5 className='pl-5 pt-2 text-2xl font-bold'>Web Development</h5>

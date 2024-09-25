@@ -1,5 +1,8 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import emailjs from 'emailjs-com';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import Button from 'react-bootstrap/Button';
 
 export default function Contact() {
     const form = useRef();
