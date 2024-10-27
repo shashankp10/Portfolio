@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import spotify from '../Assets/spotify.png';
 import collegeeazy from '../Assets/collegeeazy.png';
-import urbanbazaar from '../Assets/urbanbazaar.png'
+import urbanbazaar from '../Assets/u.png'
 import { Link } from 'react-router-dom';
 
 export default function Projects() {
