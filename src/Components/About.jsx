@@ -5,7 +5,32 @@ export default function About() {
     return (
         <>
             <h2 className='p-5 text-4xl text-yellow-500 font-bold'>About Me</h2>
-            <p className='pl-5 pr-4 text-lg'>Hi, I'm Shashank, Java Full Stack developer with keen interest in problem solving. Proficient in Java, Spring Boot, React JS, and MySQL, I have hands-on experience in crafting robust solutions. I am eager to connect with tech professionals for collaborative innovation and am actively seeking internships as a Software Developer to further hone my skills and contribute to impactful projects.</p>
+            <p className='pl-5 pr-4 text-lg leading-relaxed max-w-3xl mx-auto space-y-4 text-gray-300'>
+                <div className='mb-6'>
+                    👋 Hi, I'm <span className='text-yellow-500 font-semibold'>Shashank</span>, 
+                    a <span className='text-yellow-500 font-semibold'>Software Developer Intern</span>  skilled in Java and JavaScript.
+                </div>
+                
+                <div className='flex flex-col gap-3'>
+                    <div className='flex items-center gap-2'>
+                        <span>I have hands-on experience in <span className='text-yellow-500 font-semibold'>React.js</span>, 
+                        <span className='text-yellow-500 font-semibold'> Spring Boot</span>, and 
+                        <span className='text-yellow-500 font-semibold'> Express.js</span></span>
+                    </div>
+                    
+                    <div className='flex items-center gap-2'>
+                        <span>I'm passionate about building robust and scalable web applications</span>
+                    </div>
+                    
+                    <div className='flex items-center gap-2'>
+                        <span>I am eager to collaborate on innovative projects and continue grow</span>
+                    </div>
+                </div>
+                
+                <div className='mt-6 text-center text-yellow-500 font-medium'>
+                    Let's connect and create something amazing together! ✨
+                </div>
+            </p>
             <div className='flex justify-center xl:flex-row flex-col space-x-0 xl:space-x-10 space-y-5 xl:space-y-0 p-6'>
                 <div className='pr-3 pb-3 w-auto h-auto border flex-wrap border-gray-600 shadow-2xl bg-slate-800 rounded-lg transition-all duration-300 hover:shadow-yellow-500/20 hover:border-yellow-500/50 hover:transform hover:scale-105'>
                     <h5 className='pl-5 pt-2 text-2xl text-yellow-500  font-bold'>Web Development</h5>
