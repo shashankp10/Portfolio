@@ -6,17 +6,17 @@ export default function Resume() {
             <div className='flex items-center mb-5'>
                 <h2 className="text-4xl text-yellow-500 font-bold">Resume</h2>
                 <a target="_blank"
-                    href="https://drive.google.com/file/d/1aDDxNlt4TePsYW8xrJ4QFuBmluQ2nIb7/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1Wa7xaRGmJaBqzejIaX1-cu0UMNnw-WPK/view?usp=sharing"
                     className="pl-3 hover:opacity-80 transition-opacity flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg"
-                        className="h-8 w-8"
+                        className="h-6 w-6"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor">
                         <path strokeLinecap="round"
                             strokeLinejoin="round"
                             strokeWidth={2}
-                            d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                            d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
                     </svg>
                 </a>
             </div>
