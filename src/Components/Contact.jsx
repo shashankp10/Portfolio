@@ -30,7 +30,7 @@ const sendEmail = (e) => {
   
     return (
         <>
-        <h2 className='p-5 text-4xl font-bold'>Contact Me</h2>
+        <h2 className='p-5 text-4xl font-bold text-yellow-500'>Contact Me</h2>
   
         <div className='flex justify-center items-center'>
           <form ref={form} onSubmit={sendEmail} className='w-full max-w-lg shadow-lg rounded-lg p-6 bg-gray-700'>
