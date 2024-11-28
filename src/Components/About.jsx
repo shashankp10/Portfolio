@@ -7,54 +7,81 @@ export default function About() {
             <h2 className='p-5 text-4xl text-yellow-500 font-bold'>About Me</h2>
             <p className='pl-5 pr-4 text-lg leading-relaxed max-w-3xl mx-auto space-y-4 text-gray-300'>
                 <div className='mb-6'>
-                    👋 Hi, I'm <span className='text-yellow-500 font-semibold'>Shashank</span>, 
+                    👋 Hi, I'm <span className='text-yellow-500 font-semibold'>Shashank</span>,
                     a <span className='text-yellow-500 font-semibold'>Software Developer Intern</span>  skilled in Java and JavaScript.
                 </div>
-                
+
                 <div className='flex flex-col gap-3'>
                     <div className='flex items-center gap-2'>
-                        <span>I have hands-on experience in <span className='text-yellow-500 font-semibold'>React.js</span>, 
-                        <span className='text-yellow-500 font-semibold'> Spring Boot</span>, and 
-                        <span className='text-yellow-500 font-semibold'> Express.js</span></span>
+                        <span>I have hands-on experience in <span className='text-yellow-500 font-semibold'>React.js</span>,
+                            <span className='text-yellow-500 font-semibold'> Spring Boot</span>, and
+                            <span className='text-yellow-500 font-semibold'> Express.js</span></span>
                     </div>
-                    
+
                     <div className='flex items-center gap-2'>
                         <span>I'm passionate about building robust and scalable web applications</span>
                     </div>
-                    
+
                     <div className='flex items-center gap-2'>
                         <span>I am eager to collaborate on innovative projects and continue grow</span>
                     </div>
                 </div>
-                
+
                 <div className='mt-6 text-center text-yellow-500 font-medium'>
                     Let's connect and create something amazing together! ✨
                 </div>
             </p>
             <div className='flex justify-center xl:flex-row flex-col space-x-0 xl:space-x-10 space-y-5 xl:space-y-0 p-6'>
-                <div className='pr-3 pb-3 w-auto h-auto border flex-wrap border-gray-600 shadow-2xl bg-slate-800 rounded-lg transition-all duration-300 hover:shadow-yellow-500/20 hover:border-yellow-500/50 hover:transform hover:scale-105'>
-                    <h5 className='pl-5 pt-2 text-2xl text-yellow-500  font-bold'>Web Development</h5>
-                    <div className='pl-3 pt-2 flex'>
-                        <img width="70" height="70" src="https://img.icons8.com/fluency/48/laptop-coding.png" alt="laptop-coding" className='object-contain' />
-                        <div className=' text-sm'>
-                            <li className='pl-3'> <strong>Backend</strong> : Springboot, Node.js</li>
-                            <li className='pl-3'> <strong>Frontend</strong> : React.js</li>
-                            <li className='pl-3'> <strong>Database</strong> : MySQL, MongoDB</li>
-                        </div>
-                    </div>
-                </div>
-                <div className='pr-3 w-auto h-auto border flex-wrap border-gray-600 shadow-2xl bg-slate-800 rounded-lg transition-all duration-300 hover:shadow-yellow-500/20 hover:border-yellow-500/50 hover:transform hover:scale-105'>
-                    <h5 className='pl-5 pt-2 text-2xl text-yellow-500 font-bold'>Data Structures & Algorithms</h5>
-                    <div className='pl-3 pt-2 pb-2 flex'>
-                        <img width="70" height="70" src="https://img.icons8.com/fluency/96/java-coffee-cup-logo.png" alt="java-coffee-cup-logo" className='object-contain' />
-                        <div className='text-sm'>
-                            <li className='pl-3'>Top 7% at Leetcode (1804)</li>
-                            <li className='pl-3'>3 star at Codechef (1666)</li>
-                            <li className='pl-3'>Pupil at codeforces (1206)</li>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div className='pr-3 pb-3 w-full xl:w-[400px] h-auto border flex-wrap border-gray-600 shadow-2xl bg-slate-800 rounded-lg transition-all duration-300 hover:shadow-yellow-500/20 hover:border-yellow-500/50 hover:transform hover:scale-105'>
+        <h5 className='pl-5 pt-2 text-2xl text-yellow-500 font-bold'>Web Development</h5>
+
+        <div className='pl-3 pt-2 pb-2 flex flex-wrap sm:flex-nowrap items-start'>
+            <img
+                width="70"
+                height="70"
+                src="https://img.icons8.com/fluency/48/laptop-coding.png"
+                alt="laptop-coding"
+                className='object-contain flex-shrink-0 mr-4'
+            />
+            <ul className='text-sm'>
+                <li className='list-disc ml-4'>
+                    <span><strong>Backend</strong>: Springboot, Node.js</span>
+                </li>
+                <li className='list-disc ml-4'>
+                    <span><strong>Frontend</strong>: React.js</span>
+                </li>
+                <li className='list-disc ml-4'>
+                    <span><strong>Database</strong>: MySQL, MongoDB</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div className='pr-3 w-full xl:w-[400px] h-auto border flex-wrap border-gray-600 shadow-2xl bg-slate-800 rounded-lg transition-all duration-300 hover:shadow-yellow-500/20 hover:border-yellow-500/50 hover:transform hover:scale-105'>
+        <h5 className='pl-5 pt-2 text-xl text-yellow-500 font-bold'>Data Structures & Algorithms</h5>
+
+        <div className='pl-3 pt-2 pb-2 flex flex-wrap sm:flex-nowrap items-start'>
+            <img
+                width="70"
+                height="70"
+                src="https://img.icons8.com/fluency/96/java-coffee-cup-logo.png"
+                alt="java-coffee-cup-logo"
+                className='object-contain flex-shrink-0'
+            />
+            <ul className='text-sm '>
+                <li className='list-disc ml-4'>
+                    <span>Proficient in Java programming</span>
+                </li>
+                <li className='list-disc ml-4 '>
+                    <span>Solved over 1000+ problems across various platforms</span>
+                </li>
+                <li className='list-disc ml-4'>
+                    <span>Active Leetcode contest participant</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
             <h4 className='text-3xl font-bold text-yellow-500 m-6'>Skills</h4>
             <div className='p-5 flex gap-3 flex-wrap max-w-3xl mx-auto'>
                 {[
