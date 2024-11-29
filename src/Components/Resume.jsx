@@ -6,7 +6,7 @@ export default function Resume() {
             <div className='flex items-center mb-5'>
                 <h2 className="text-4xl text-yellow-500 font-bold">Resume</h2>
                 <a target="_blank"
-                    href="https://drive.google.com/file/d/1Wa7xaRGmJaBqzejIaX1-cu0UMNnw-WPK/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1uHxa76B7y1qreUWkzGNstrYbyY0dw__i/view?usp=sharing"
                     className="pl-3 hover:opacity-80 transition-opacity flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg"
                         className="h-6 w-6"

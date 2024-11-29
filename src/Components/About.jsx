@@ -5,7 +5,7 @@ export default function About() {
     return (
         <>
             <h2 className='p-5 text-4xl text-yellow-500 font-bold'>About Me</h2>
-            <p className='pl-5 pr-4 text-lg leading-relaxed max-w-3xl mx-auto space-y-4 text-gray-300'>
+            <p className='pl-5 pr-4 text-lg leading-relaxed max-w-3xl text-gray-300'>
                 <div className='mb-6'>
                     👋 Hi, I'm <span className='text-yellow-500 font-semibold'>Shashank</span>,
                     a <span className='text-yellow-500 font-semibold'>Software Developer Intern</span>  skilled in Java and JavaScript.
@@ -83,8 +83,8 @@ export default function About() {
 </div>
 
             <h4 className='text-3xl font-bold text-yellow-500 m-6'>Skills</h4>
-            <div className='p-5 flex gap-3 flex-wrap max-w-3xl mx-auto'>
-                {[
+            <div className='p-5 flex gap-3 flex-wrap'>
+               {[
                     { src: "https://img.icons8.com/color/48/spring-logo.png", alt: "Spring", label: "Spring" },
                     { src: "https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png", alt: "Java", label: "Java" },
                     { src: "https://img.icons8.com/fluency/48/javascript.png", alt: "JavaScript", label: "JavaScript" },

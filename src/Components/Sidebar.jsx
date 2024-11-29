@@ -8,9 +8,9 @@ export default function Sidebar() {
   const [showDetails, setShowDetails] = useState(false);
 
   return (
-    <div className="bg-gray-800 relative flex-wrap min-w-[30vw] h-auto xl:max-h-[60vw] overflow-y-auto border border-gray-500 rounded-3xl shadow-lg shadow-gray-600 p-4">
+    <div className="bg-gray-800 relative flex-wrap min-w-[30vw] h-auto xl:h-[60vw] overflow-y-auto border border-gray-500 rounded-3xl shadow-lg shadow-gray-600 p-4">
        <div className="flex flex-col md:flex-row xl:flex-col items-center gap-10">
-        <div className="flex flex-col xl:flex-col md:flex-row md:gap-4">
+          <div className="flex flex-col xl:flex-col md:flex-row md:gap-4">
           <div className="h-40 w-40 mt-10 mx-auto">
             <img src={photo} alt="Profile" className="h-full w-full object-cover rounded-full" />
           </div>
@@ -75,7 +75,7 @@ export default function Sidebar() {
             </div>
           </div>
 
-          {/* Contact section */}
+          {/* Contact section
           <div className="flex items-center group hover:bg-gray-700/20 p-2 rounded-xl transition-all duration-300">
             <div className="h-10 w-10 flex items-center justify-center border border-gray-600/50 rounded-lg bg-gray-700/30 group-hover:border-gray-500 transition-colors">
               <FontAwesomeIcon icon={faUser} className="text-gray-400 h-5 w-5 group-hover:text-gray-200" />
@@ -84,7 +84,7 @@ export default function Sidebar() {
               <p className="text-gray-400 text-sm font-medium">Contact</p>
               <p className="text-white text-sm hover:text-blue-400">+91 9625452478</p>
             </div>
-          </div>
+          </div> */}
 
           {/* Location section */}
           <div className="flex items-center group hover:bg-gray-700/20 p-2 rounded-xl transition-all duration-300">
