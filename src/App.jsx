@@ -10,7 +10,7 @@ function App() {
 
   return (
     <Router>
-      <div className="bg-slate-900 min-h-screen text-white">
+      <div className="bg-slate-900 min-h-screen text-white min-w-[250px]">
         <MainBody>
           <Routes>
             <Route path="/" element={<About />} />

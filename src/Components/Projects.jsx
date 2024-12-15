@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import spotify from '../Assets/spotify.png';
 import collegeeazy from '../Assets/collegeeazy.png';
-import urbanbazaar from '../Assets/u.png'
+import urbanbazaar from '../Assets/u.png';
+import navify from '../Assets/navify.png';
 import { Link } from 'react-router-dom';
 
 export default function Projects() {
@@ -20,9 +21,9 @@ export default function Projects() {
         'Llama\'s NLM model extracts keywords from queries for ultra-fast search, with results undergoing sentiment analysis and scoring.',
         'Improved user engagement by reducing search times from minutes to seconds.'
       ],
-      imageUrl: 'https://via.placeholder.com/300',
+      imageUrl: navify,
       stack: 'Node.js, React.js, Playwright, Llama NLM, Meilisearch',
-      tech: 'Backend',
+      tech: 'Full Stack',
       live: '',
       code: 'https://github.com/shashankp10/Navify'
     },
@@ -36,8 +37,8 @@ export default function Projects() {
         'Reduced the need for multiple platforms by centralizing all features in one place.'
       ],
       imageUrl: collegeeazy,
-      stack: 'Springboot, React.js, MySQL, JWT, Docker, Postman',
-      tech: 'Full Stack',
+      stack: 'SpringBoot, React.js, MySQL, JWT, Docker, Postman',
+      tech: 'Backend',
       live: 'https://collegeeazy.vercel.app/',
       code: 'https://github.com/shashankp10/CollegeEazy-backend'
     },
@@ -66,21 +67,21 @@ export default function Projects() {
         'Utilized MySQL for user data and MongoDB for product management.'
       ],
       imageUrl: urbanbazaar,
-      stack: 'Springboot, MySQL, MongoDB, Postman, JWT',
-      tech: 'Backend',
+      stack: 'SpringBoot, MySQL, MongoDB, Postman, JWT',
+      tech: 'Full Stack',
       live: 'https://urban-bazaar-ashen.vercel.app/',
       code: 'https://github.com/shashankp10/e-commerce-backend'
     },
     {
       title: 'ChatRoom',
       description: [
-        'Built a real-time group chat platform using Springboot and Websocket.',
+        'Built a real-time group chat platform using SpringBoot and Websocket.',
         'Implemented real-time message delivery and user presence tracking.',
         'Created an intuitive interface for seamless communication.',
         'Integrated user authentication and chat room management.'
       ],
       imageUrl: 'https://via.placeholder.com/300',
-      stack: 'HTML, CSS, Javascript, Springboot, Websocket',
+      stack: 'HTML, CSS, Javascript, SpringBoot, Websocket',
       tech: 'Full Stack',
       live: '',
       code: 'https://github.com/shashankp10/chat-room'
@@ -144,7 +145,6 @@ export default function Projects() {
                 </div>
               </div>
 
-              {/* Tech Stack */}
               <div className='flex flex-wrap gap-2 mb-3'>
                 {project.stack.split(', ').map((tech, i) => (
                   <span
@@ -156,7 +156,6 @@ export default function Projects() {
                 ))}
               </div>
 
-              {/* Description Toggle Button */}
               <button
                 onClick={() => toggleDescription(index)}
                 className='w-full text-sm text-gray-300 hover:text-yellow-500 transition-colors flex items-center justify-center gap-2 mt-2 py-1 border-t border-gray-600'
@@ -178,7 +177,6 @@ export default function Projects() {
                 </svg>
               </button>
 
-              {/* Dropdown Description */}
               <div
                 className={`overflow-hidden transition-all duration-300 ease-in-out ${expandedCard === index ? 'max-h-[400px] mt-3' : 'max-h-0'
                   }`}
