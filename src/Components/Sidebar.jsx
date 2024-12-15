@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import photo from '../Assets/Myphoto.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faCopy, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faCopy, faLocationDot, faCheckCircle} from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export default function Sidebar() {
   const [showDetails, setShowDetails] = useState(false);
+  const [isCopied, setIsCopied] = useState(false);
 
   return (
     <div className="bg-gray-800 lg: relative xl:sticky xl:top-2 flex-wrap min-w-[30vw] lg:h-auto xl:min-w-[350px] xl:h-[720px] xl:overflow-y-auto border border-gray-500 rounded-3xl shadow-lg shadow-gray-600 p-4">
@@ -73,15 +74,19 @@ export default function Sidebar() {
                 <button
                   onClick={() => {
                     navigator.clipboard.writeText('pandey2001shashank@gmail.com');
+                    setIsCopied(true);
+                    setTimeout(() => setIsCopied(false), 1000);
                   }}
                   className="group/copy relative p-1.5 rounded-lg hover:bg-gray-700/30 transition-all duration-300"
                 >
                   <FontAwesomeIcon
-                    icon={faCopy}
-                    className="text-gray-400 h-4 w-4 group-hover/copy:text-gray-200 transition-colors duration-300"
+                    icon={isCopied ? faCheckCircle : faCopy}
+                    className={`h-4 w-4 transition-colors duration-300 ${
+                      isCopied ? 'text-green-400' : 'text-gray-400 group-hover/copy:text-gray-200'
+                    }`}
                   />
                   <span className="absolute -top-8 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-gray-700 px-2 py-1 text-xs text-gray-100 opacity-0 group-hover/copy:opacity-100 transition-all duration-300 pointer-events-none">
-                    Copy email
+                    {isCopied ? 'Copied!' : 'Copy email'}
                   </span>
                 </button>
               </div>
@@ -98,8 +103,6 @@ export default function Sidebar() {
               <p className="text-white text-sm hover:text-blue-400">+91 9625452478</p>
             </div>
           </div> */}
-
-          {/* Location section */}
           <div className="flex items-center group hover:bg-gray-700/20 p-2 rounded-xl transition-all duration-300">
             <div className="h-10 w-10 flex items-center justify-center border border-gray-600/50 rounded-lg bg-gray-700/30 group-hover:border-gray-500 transition-colors">
               <FontAwesomeIcon icon={faLocationDot} className="text-gray-400 h-5 w-5 group-hover:text-gray-200" />
@@ -110,8 +113,6 @@ export default function Sidebar() {
             </div>
           </div>
         </div>
-
-        {/* Social Media Icons */}
         <div className="mt-8 flex items-center justify-center space-x-6">
           {[
             { icon: faGithub, label: 'GitHub', href: 'https://github.com/shashankp10' },
