@@ -24,7 +24,7 @@ export default function Projects() {
       imageUrl: navify,
       stack: 'Node.js, React.js, Playwright, Llama NLM, Meilisearch',
       tech: 'Full Stack',
-      live: '',
+      live: 'https://navify-frontend.vercel.app/',
       code: 'https://github.com/shashankp10/Navify'
     },
     {
