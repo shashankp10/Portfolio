@@ -30,9 +30,15 @@ export default function Resume() {
                             <p className="text-sm text-gray-300">Oct 2024 - Present</p>
                         </div>
                         <p className="text-sm text-yellow-500">Kloudfarm, Bengaluru (Remote)</p>
-                        <ul className="list-disc list-inside pt-2 text-sm space-y-1">
-                            <li>Engineered and researched solutions for building C4 diagrams, selecting the optimal approach for implementation</li>
-                            <li>Built a proof of concept (PoC) and set up the repository for developing a JavaScript library using bundler Vite, Jest, and vitest</li>
+                        <ul className="pt-2 text-sm space-y-1">
+                            <li className="flex">
+                                <span className="mr-2">•</span>
+                                <span>Engineered and researched solutions for building C4 diagrams, selecting the optimal approach for implementation</span>
+                            </li>
+                            <li className="flex">
+                                <span className="mr-2">•</span>
+                                <span>Built a proof of concept (PoC) and set up the repository for developing a JavaScript library using bundler Vite, Jest, and vitest</span>
+                            </li>
                             <p className='font-bold text-lg'>Tech Stack : Javascript, React.js</p>
                         </ul>
                     </div>
@@ -43,10 +49,19 @@ export default function Resume() {
                             <p className="text-sm text-gray-300">Jun 2024 - Sept 2024</p>
                         </div>
                         <p className="text-sm text-yellow-500">Gunaworks, Bengaluru (Remote)</p>
-                        <ul className="list-disc list-inside pt-2 text-sm space-y-1">
-                            <li>Developed a prompt-driven web testing tool using NLMs, Playwright, and React.js, enabling interaction with web elements, auto-generation of test cases, and report generation</li>
-                            <li>Integrated keyword-based DOM manipulation with the Von-Similo Algorithm, improving accuracy from 94% to 99% and reducing response time from minutes to milliseconds</li>
-                            <li>Used NLMs for prompt analysis with session memory to ensure coherent interactions, test case creation and validation through Playwright</li>
+                        <ul className="pt-2 text-sm space-y-1">
+                            <li className="flex">
+                                <span className="mr-2">•</span>
+                                <span>Developed a prompt-driven web testing tool using NLMs, Playwright, and React.js, enabling interaction with web elements, auto-generation of test cases, and report generation</span>
+                            </li>
+                            <li className="flex">
+                                <span className="mr-2">•</span>
+                                <span>Integrated keyword-based DOM manipulation with the Von-Similo Algorithm, improving accuracy from 94% to 99% and reducing response time from minutes to milliseconds</span>
+                            </li>
+                            <li className="flex">
+                                <span className="mr-2">•</span>
+                                <span>Used NLMs for prompt analysis with session memory to ensure coherent interactions, test case creation and validation through Playwright</span>
+                            </li>
                             <p className='font-bold text-lg'>Tech Stack : Express.js, React.js, Playwright, LLMs</p>
                         </ul>
                     </div>
@@ -57,10 +72,19 @@ export default function Resume() {
                         </div>
                         <p className="text-sm text-yellow-500">Google Developer Student Clubs (GDSC)</p>
                         <p className="text-xs text-gray-300">College Technical Society</p>
-                        <ul className="list-disc list-inside pt-2 text-sm space-y-1">
-                            <li>Organized a 72-hour hackathon, engaging over 200 participants and receiving 700+ registrations</li>
-                            <li>Delivered 2 major projects as the lead, ensuring completion within deadlines</li>
-                            <li>Mentored participants in hackathons</li>
+                        <ul className="pt-2 text-sm space-y-1">
+                            <li className="flex">
+                                <span className="mr-2">•</span>
+                                <span>Organized a 72-hour hackathon, engaging over 200 participants and receiving 700+ registrations</span>
+                            </li>
+                            <li className="flex">
+                                <span className="mr-2">•</span>
+                                <span>Delivered 2 major projects as the lead, ensuring completion within deadlines</span>
+                            </li>
+                            <li className="flex">
+                                <span className="mr-2">•</span>
+                                <span>Mentored participants in hackathons</span>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -73,7 +97,8 @@ export default function Resume() {
                     <div className="bg-gray-700 p-6 rounded-2xl space-y-6">
                         <div className="border-l-4 border-yellow-500 pl-4">
                             <h3 className="text-lg font-bold">Guru Gobind Singh Indraprastha University</h3>
-                            <p className='text-yellow-500 font-medium'>B.Tech, Computer Science</p>
+                            <p className='text-yellow-500 font-medium'>Bachelor of Technology</p>
+                            <p className='text-yellow-500 font-medium'>Computer Science and Engineering</p>
                             <div className='flex justify-between items-center mt-1'>
                                 <span className='text-sm text-gray-300'>2021 - 2025</span>
                                 <span className='text-sm font-medium text-yellow-500'>CGPA: 9.0</span>
