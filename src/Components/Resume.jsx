@@ -24,20 +24,45 @@ export default function Resume() {
             <section className="mb-8">
                 <h2 className="font-bold text-2xl mb-4">Experience</h2>
                 <div className="flex flex-col space-y-4">
+                <div className="w-full bg-gray-700 p-5 rounded-2xl">
+                        <div className="flex justify-between items-start">
+                            <h3 className="text-xl font-semibold">Software Engineer Trainee</h3>
+                            <p className="text-sm text-gray-300">Feb 2024 - Present</p>
+                        </div>
+                        <p className="text-sm text-yellow-500">TO THE NEW, Noida (On-site)</p>
+                        <ul className="pt-2 text-sm space-y-1">
+                            <li className="flex">
+                                <span className="mr-2">•</span>
+                                <span>Currently assigned to a client-facing project for Adobe (Max Life Insurance), contributing to backend development.</span>
+                            </li>
+                            <li className="flex">
+                                <span className="mr-2">•</span>
+                                <span>Built a production-grade e-commerce backend POC (Java 21, Spring Boot, MySQL) starting with domain design, JWT with refresh token Redis-based auth, role-based access, async mail service, scheduled tasks, dynamic product filtering, BFS for nested product listing, and complex role-specific APIs with pagination and sorting.</span>
+                            </li>
+                            <li className="flex">
+                                <span className="mr-2">•</span>
+                                <span>Underwent a rigorous training program covering Core Java, Spring Boot, MySQL, Docker (basics), GitHub, Linux, and AWS (foundations).</span>
+                            </li>
+                            <p className='font-bold text-lg'>Tech Stack : Core Java, Springboot, Redis, RabbitMQ, MySQL</p>
+                        </ul>
+                    </div>
+
                     <div className="w-full bg-gray-700 p-5 rounded-2xl">
                         <div className="flex justify-between items-start">
                             <h3 className="text-xl font-semibold">Software Engineer Intern</h3>
-                            <p className="text-sm text-gray-300">Oct 2024 - Present</p>
+                            <p className="text-sm text-gray-300">Oct 2024 - Jan 2024</p>
                         </div>
                         <p className="text-sm text-yellow-500">Kloudfarm, Bengaluru (Remote)</p>
                         <ul className="pt-2 text-sm space-y-1">
                             <li className="flex">
                                 <span className="mr-2">•</span>
-                                <span>Engineered and researched solutions for building C4 diagrams, selecting the optimal approach for implementation</span>
+                                <span>Built a charting library using JavaScript, with internal use of Cytoscape.js and custom React wrappers to support
+                                real-time architecture visualization and interactive diagrams</span>
                             </li>
                             <li className="flex">
                                 <span className="mr-2">•</span>
-                                <span>Built a proof of concept (PoC) and set up the repository for developing a JavaScript library using bundler Vite, Jest, and vitest</span>
+                                <span>Designed and implemented C4 diagram components from scratch, contributing to the frontend Visualization layer
+                                through research, PoC development, and close collaboration with the engineering team</span>
                             </li>
                             <p className='font-bold text-lg'>Tech Stack : Javascript, React.js</p>
                         </ul>
@@ -143,7 +168,7 @@ export default function Resume() {
                             <div className="skill-group">
                                 <h3 className='text-lg font-bold text-yellow-500 mb-2'>Frameworks</h3>
                                 <div className="flex flex-wrap gap-2">
-                                    {['Spring Boot', 'React.js', 'Node.js', 'Express', 'Tailwind'].map(skill => (
+                                    {['Spring Boot', 'React.js','Tailwind'].map(skill => (
                                         <span key={skill} className="px-3 py-1 bg-gray-600 rounded-full text-sm">
                                             {skill}
                                         </span>
@@ -165,7 +190,7 @@ export default function Resume() {
                             <div className="skill-group">
                                 <h3 className='text-lg font-bold text-yellow-500 mb-2'>Developer Tools</h3>
                                 <div className="flex flex-wrap gap-2">
-                                    {['Docker', 'Playwright', 'Git', 'Postman', 'IntelliJ IDEA', 'Visual Studio Code'].map(skill => (
+                                    {['Docker', 'Playwright', 'Git', 'Redis', 'RabbitMQ', 'Postman', 'IntelliJ IDEA', 'Visual Studio Code'].map(skill => (
                                         <span key={skill} className="px-3 py-1 bg-gray-600 rounded-full text-sm">
                                             {skill}
                                         </span>

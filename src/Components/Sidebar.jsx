@@ -26,11 +26,11 @@ export default function Sidebar() {
             <div className="flex gap-3 mt-4">
               <div className="flex items-center gap-2 bg-gray-700/30 px-4 py-1.5 rounded-full border border-gray-600">
                 <span className="h-2 w-2 rounded-full bg-green-400"></span>
-                <span className="text-white text-sm">Java</span>
+                <span className="text-white text-sm">Springboot</span>
               </div>
               <div className="flex items-center gap-2 bg-gray-700/30 px-4 py-1.5 rounded-full border border-gray-600">
                 <span className="h-2 w-2 rounded-full bg-yellow-400"></span>
-                <span className="text-white text-sm">JavaScript</span>
+                <span className="text-white text-sm">Core Java</span>
               </div>
             </div>
           </div>

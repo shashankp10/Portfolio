@@ -8,14 +8,14 @@ export default function About() {
             <p className='pl-5 pr-4 text-lg leading-relaxed max-w-3xl text-gray-300'>
                 <div className='mb-6'>
                     👋 Hi, I'm <span className='text-yellow-500 font-semibold'>Shashank</span>,
-                    a <span className='text-yellow-500 font-semibold'>Software Developer Intern</span>  skilled in Java and JavaScript.
+                    a <span className='text-yellow-500 font-semibold'>Software Engineer Intern</span>  skilled in Java and Javascript.
                 </div>
 
                 <div className='flex flex-col gap-3'>
                     <div className='flex items-center gap-2'>
-                        <span>I have hands-on experience in <span className='text-yellow-500 font-semibold'>React.js</span>,
-                            <span className='text-yellow-500 font-semibold'> Spring Boot</span>, and
-                            <span className='text-yellow-500 font-semibold'> Express.js</span></span>
+                        <span>I have hands-on experience in <span className='text-yellow-500 font-semibold'>Core Java</span>,
+                            <span className='text-yellow-500 font-semibold'> Spring Boot</span> and
+                            <span className='text-yellow-500 font-semibold'> React.js</span></span>
                     </div>
 
                     <div className='flex items-center gap-2'>
@@ -45,7 +45,7 @@ export default function About() {
                         />
                         <ul className='text-sm'>
                             <li className='list-disc ml-4'>
-                                <span><strong>Backend</strong>: Springboot, Node.js</span>
+                                <span><strong>Backend</strong>: Springboot</span>
                             </li>
                             <li className='list-disc ml-4'>
                                 <span><strong>Frontend</strong>: React.js</span>

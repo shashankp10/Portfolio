@@ -27,8 +27,8 @@ export default function Navbar() {
   }, [location]);
 
   return (
-    <div className="md:absolute md:top-0 md:right-0 md:left-auto md:bottom-auto rounded-tl-3xl rounded-tr-3xl md:rounded-tl-none md:rounded-bl-xl md:w-auto px-4 bg-gray-600 p-3 w-auto border border-gray-500 shadow-lg shadow-gray-600">
-      <div className="flex flex-wrap h-full items-center justify-center gap-4 font-semibold">
+    <div className="md:absolute md:top-0 md:right-0 md:left-auto md:bottom-auto rounded-tl-3xl rounded-tr-3xl md:rounded-tl-none md:rounded-bl-xl md:w-auto px-4 bg-gray-600 p-3 w-auto border border-gray-500 shadow-lg shadow-gray-600 text-xl">
+      <div className="flex flex-wrap h-full items-center justify-center gap-10 font-bold">
         <Link
           to="/"
           className={`${
@@ -53,14 +53,14 @@ export default function Navbar() {
         >
           Resume
         </Link>
-        <Link
+        {/* <Link
           to="/contact"
           className={`${
             selectedLink === "contact" ? "text-yellow-500" : "text-white"
           } hover:text-yellow-400 transition-colors duration-300`}
         >
           Contact
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
