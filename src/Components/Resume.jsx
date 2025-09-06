@@ -22,12 +22,26 @@ export default function Resume() {
             </div>
 
             <section className="mb-8">
-                <h2 className="font-bold text-2xl mb-4">Experience</h2>
+                <h2 className="font-bold text-2xl mb-4">Work Experience</h2>
                 <div className="flex flex-col space-y-4">
-                <div className="w-full bg-gray-700 p-5 rounded-2xl">
+                     <div className="w-full bg-gray-700 p-5 rounded-2xl">
+                        <div className="flex justify-between items-start">
+                            <h3 className="text-xl font-semibold">Software Engineer</h3>
+                            <p className="text-sm text-gray-300">Jul 2025 - Present</p>
+                        </div>
+                        <p className="text-sm text-yellow-500">TO THE NEW, Noida (On-site)</p>
+                        <ul className="pt-2 text-sm space-y-1">
+                            <li className="flex">
+                                <span className="mr-2">•</span>
+                                <span>Working with Adobe powered Axis Maxlife Insurance as backend developer</span>
+                            </li>
+                            <p className='font-bold text-lg'>Tech Stack : Core Java, Springboot, AWS, DynamoDB</p>
+                        </ul>
+                    </div>
+                    <div className="w-full bg-gray-700 p-5 rounded-2xl">
                         <div className="flex justify-between items-start">
                             <h3 className="text-xl font-semibold">Software Engineer Trainee</h3>
-                            <p className="text-sm text-gray-300">Feb 2024 - Present</p>
+                            <p className="text-sm text-gray-300">Feb 2025 - Jul 2025</p>
                         </div>
                         <p className="text-sm text-yellow-500">TO THE NEW, Noida (On-site)</p>
                         <ul className="pt-2 text-sm space-y-1">
@@ -43,14 +57,14 @@ export default function Resume() {
                                 <span className="mr-2">•</span>
                                 <span>Underwent a rigorous training program covering Core Java, Spring Boot, MySQL, Docker (basics), GitHub, Linux, and AWS (foundations).</span>
                             </li>
-                            <p className='font-bold text-lg'>Tech Stack : Core Java, Springboot, Redis, RabbitMQ, MySQL</p>
+                            <p className='font-bold text-lg'>Tech Stack : Core Java, Springboot, Redis, MySQL</p>
                         </ul>
                     </div>
 
                     <div className="w-full bg-gray-700 p-5 rounded-2xl">
                         <div className="flex justify-between items-start">
                             <h3 className="text-xl font-semibold">Software Engineer Intern</h3>
-                            <p className="text-sm text-gray-300">Oct 2024 - Jan 2024</p>
+                            <p className="text-sm text-gray-300">Oct 2024 - Jan 2025</p>
                         </div>
                         <p className="text-sm text-yellow-500">Kloudfarm, Bengaluru (Remote)</p>
                         <ul className="pt-2 text-sm space-y-1">
@@ -91,6 +105,10 @@ export default function Resume() {
                         </ul>
                     </div>
 
+                   
+                </div>
+                <h2 className="font-bold text-2xl pt-7 mb-4">Volunteering Experience</h2>
+                 <div className="flex flex-col space-y-4">
                     <div className="w-full bg-gray-700 p-5 rounded-2xl">
                         <div className="flex justify-between items-start">
                             <h3 className="text-xl font-semibold">Technical Lead</h3>
@@ -109,6 +127,19 @@ export default function Resume() {
                             <li className="flex">
                                 <span className="mr-2">•</span>
                                 <span>Mentored participants in hackathons</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="w-full bg-gray-700 p-5 rounded-2xl">
+                        <div className="flex justify-between items-start">
+                            <h3 className="text-xl font-semibold">Technical Team Member</h3>
+                        </div>
+                        <p className="text-sm text-yellow-500">GeeksforGeeks Student Chapter</p>
+                        <p className="text-xs text-gray-300">College Technical Society</p>
+                        <ul className="pt-2 text-sm space-y-1">
+                            <li className="flex">
+                                <span className="mr-2">•</span>
+                                <span>Contributes by preparing coding contest questions and has contributed questions for coding contests.</span>
                             </li>
                         </ul>
                     </div>
@@ -166,7 +197,7 @@ export default function Resume() {
                             </div>
 
                             <div className="skill-group">
-                                <h3 className='text-lg font-bold text-yellow-500 mb-2'>Frameworks</h3>
+                                <h3 className='text-lg font-bold text-yellow-500 mb-2'>Framework & Libraries</h3>
                                 <div className="flex flex-wrap gap-2">
                                     {['Spring Boot', 'React.js','Tailwind'].map(skill => (
                                         <span key={skill} className="px-3 py-1 bg-gray-600 rounded-full text-sm">

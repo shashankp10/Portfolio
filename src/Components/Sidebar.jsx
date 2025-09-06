@@ -21,7 +21,7 @@ export default function Sidebar() {
           <div className="flex flex-col justify-center items-center md:justify-center">
             <h2 className="pt-2 font-extrabold text-3xl font-dmserif text-center">Shashank Pandey</h2>
             <p className="bg-gray-700 text-center text-white mt-4 p-2 rounded-xl w-fit mx-auto">
-              Software Engineer Intern
+              Software Engineer
             </p>
             <div className="flex gap-3 mt-4">
               <div className="flex items-center gap-2 bg-gray-700/30 px-4 py-1.5 rounded-full border border-gray-600">

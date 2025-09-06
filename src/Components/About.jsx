@@ -53,6 +53,9 @@ export default function About() {
                             <li className='list-disc ml-4'>
                                 <span><strong>Database</strong>: MySQL, MongoDB</span>
                             </li>
+                            <li className='list-disc ml-4'>
+                                <span><strong>Others</strong>: AWS, Postman</span>
+                            </li>
                         </ul>
                     </div>
                 </div>
